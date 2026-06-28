@@ -5,9 +5,10 @@ class FetchGit < Formula
   sha256 "575f43040fd3f912f84a151ee4069812eb1a15306541ed36d5b10897984174ed"
   license "ISC"
 
-  head "https://github.com/areofyl/fetch.git", branch: "master"
+  head "https://github.com/areofyl/fetch.git", branch: "main"
 
-  depends_on "fastfetch"
+  depends_on :linux
+  depends_on "fastfetch" => :optional
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
