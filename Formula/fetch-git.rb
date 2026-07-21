@@ -7,7 +7,6 @@ class FetchGit < Formula
 
   head "https://github.com/areofyl/fetch.git", branch: "main"
 
-  depends_on :linux
   depends_on "fastfetch" => :optional
 
   def install
