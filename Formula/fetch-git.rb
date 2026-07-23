@@ -1,8 +1,8 @@
 class FetchGit < Formula
   desc "3D rotating system fetch for your terminal"
   homepage "https://github.com/areofyl/fetch"
-  url "https://github.com/areofyl/fetch/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "a09f78b5bd6007b7260bfa7cf2879944ba48ef6bdefbd98c3841e00255daae2c"
+  url "https://github.com/areofyl/fetch/archive/refs/tags/v2.2.1.tar.gz"
+  sha256 "1ca2b14a969dbf840cdde364a93cd603053451aadbc79f51011e47ec2d441ebb"
   license "ISC"
 
   head "https://github.com/areofyl/fetch.git", branch: "main"
